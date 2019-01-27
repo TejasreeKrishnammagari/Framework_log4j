@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="57352" started-at="2019-01-26T17:13:08Z" finished-at="2019-01-26T17:14:06Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TC_101_VerifyingLogin.verifying_login()[pri:0, instance:com.hrms.TestScripts.TC_101_VerifyingLogin@1e8b406]" name="verifying_login" class="com.hrms.TestScripts.TC_101_VerifyingLogin"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Regression1" duration-ms="57352" started-at="2019-01-26T17:13:08Z" finished-at="2019-01-26T17:14:06Z">
+      <class name="com.hrms.TestScripts.TC_102_Add_NewEmp">
+        <test-method status="PASS" signature="addemployee()[pri:0, instance:com.hrms.TestScripts.TC_102_Add_NewEmp@2bcfcb]" name="addemployee" duration-ms="22908" started-at="2019-01-26T09:13:20Z" finished-at="2019-01-26T09:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+      </class> <!-- com.hrms.TestScripts.TC_102_Add_NewEmp -->
+      <class name="com.hrms.TestScripts.TC_103_Del_Emp">
+        <test-method status="PASS" signature="deleteemployee()[pri:0, instance:com.hrms.TestScripts.TC_103_Del_Emp@76ae34]" name="deleteemployee" duration-ms="22587" started-at="2019-01-26T09:13:43Z" finished-at="2019-01-26T09:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteemployee -->
+      </class> <!-- com.hrms.TestScripts.TC_103_Del_Emp -->
+      <class name="com.hrms.TestScripts.TC_101_VerifyingLogin">
+        <test-method status="PASS" signature="verifying_login()[pri:0, instance:com.hrms.TestScripts.TC_101_VerifyingLogin@1e8b406]" name="verifying_login" duration-ms="11795" started-at="2019-01-26T09:13:08Z" finished-at="2019-01-26T09:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_login -->
+      </class> <!-- com.hrms.TestScripts.TC_101_VerifyingLogin -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,38 @@
+
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Suite1" verbose="1" >
+  <test name="Regression1"   > 
+  <!--  Classes is main used for executing single or some testcases--> 
+ <!--  <classes>
+   <class name="com.hrms.TestScripts.TC_101_VerifyingLogin"></class>
+   <class name="com.hrms.TestScripts.TC_102_Add_NewEmp"></class>
+   <class name="com.hrms.TestScripts.TC_103_Del_Emp"></class>
+   </classes> -->
+   
+   <!-- Packeages is mainly used for executing all testcases 
+   inside the package with single line of code -->
+    
+  <packages>
+      <package name="com.hrms.TestScripts.*" />
+   </packages> 
+   
+  </test>
+  </suite>
+   
+   
+   <!-- Groups is mainly used for executing particular testcase -->
+   <!-- 
+   <test name="Regression1">
+  	<groups>
+   	 <run>
+	      <include name="Regression"  />
+    </run>
+  	</groups>  
+  </test>
+    -->
+
+
+

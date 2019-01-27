@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.hrms.TestScripts.TC_103_Del_Emp">
+        <methods>
+          <include name="deleteemployee"/>
+        </methods>
+      </class> <!-- com.hrms.TestScripts.TC_103_Del_Emp -->
+      <class name="com.hrms.TestScripts.TC_102_Add_NewEmp">
+        <methods>
+          <include name="addemployee"/>
+        </methods>
+      </class> <!-- com.hrms.TestScripts.TC_102_Add_NewEmp -->
+      <class name="com.hrms.TestScripts.TC_101_VerifyingLogin">
+        <methods>
+          <include name="verifying_login"/>
+        </methods>
+      </class> <!-- com.hrms.TestScripts.TC_101_VerifyingLogin -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
